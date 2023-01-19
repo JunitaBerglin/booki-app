@@ -1,0 +1,29 @@
+/* css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-image: url("./boys-g3810c250d_1920.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Headings */
+#welcomeText, #addTextText {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: lightblue;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+}
+
+/* Containers */
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 3%;
+}
