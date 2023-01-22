@@ -13,6 +13,11 @@ enum category {
 	ROMANER
 }
 
+input createBookInput {
+	title: String!
+	author: String!
+}
+
 type DeletedResourceResponse {
 	deletedId: ID
 	success: Boolean
@@ -24,7 +29,7 @@ type Query {
 }
 
 type Mutation {
-	createBook(title: String!, author: String): Book
+	createBook(input: createBookInput!): Book
 	updateBook(id: ID!, title: String!, author: String!): Book
 	deleteBook(BookId: ID!): DeletedResourceResponse
 }
