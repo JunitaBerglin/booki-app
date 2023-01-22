@@ -20,11 +20,12 @@ let allBooks = []
 
 const getAllBooksQuery = `query getAllBooks {
     getAllBooks {
-      author
-      category
-      grade
-      id
-      title
+        title,
+        author,
+        category,
+        grade,
+        audiobook,
+        id
     }
   }`
 

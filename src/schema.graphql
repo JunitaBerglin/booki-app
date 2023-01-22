@@ -3,6 +3,7 @@ type Book {
 	author: String
 	category: category
 	grade: String
+	audiobook: String
 	id: ID
 }
 
